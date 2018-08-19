@@ -9,14 +9,3 @@ function scuberGreetingForFeet(someNumber){
    
 }
 
-function ternaryCheckCity(){
-  
-}
-
-switchOnCharmFromTip(){
-  switch(){
-    case:
-    case:
-  }
-  
-}
