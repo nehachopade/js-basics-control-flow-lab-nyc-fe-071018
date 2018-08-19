@@ -17,12 +17,16 @@ function ternaryCheckCity(city){
 }
 
 switchOnCharmFromTip(tip){
-  switch (tip)
+  switch (tip){
     case 'generous' : return "Thank you so much.";
-    case  'not as generous' : return "Thank you."
-    case ''
+                      break;
+    case  'not as generous' : return "Thank you.";
+                              break;
+    default :  'Bye.'
+  }
+}
 
-describe('switchOnCharmFromTip()', function () {
+/*describe('switchOnCharmFromTip()', function () {
     it('should return "Thank you so much." if the tip is generous', function () {
       expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
     });
@@ -35,4 +39,4 @@ describe('switchOnCharmFromTip()', function () {
       expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
     });
   });
-});
+});*/
